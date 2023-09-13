@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrat incia -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="../estilos.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <!-- agrego navbar -->
+        <nav class="navbar navbar-expand-sm navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">TS.Media 🌊</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Servicios</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- finalizo navbar -->
+
+    </header>
+    <section>
+        <h3>Formulario:</h3>
+        <form action="enviar.php" method="post" enctype="text/plain">
+            <label for="">Sr/Sra:</label>
+            <input type="text" required placeholder="nombre y apellido"><br>
+            E-mail: <input type="email" required placeholder="ejemplo@gmail.com"><br>
+            Contraseña: <input type="password"><br>
+            Fecha de nacimiento: <input type="date"><br>
+            Pasaporte: <input type="file"><br>
+            Telefono: <input type="text" required placeholder="n° de contacto">
+            <br>
+            <!-- Espacio para escribir mensajes -->
+            <h3><label for="">Comentarios:</label></h3>
+            <textarea name="areadetexto" id="" cols="40" rows="10" placeholder="Dejanos tu mensaje"></textarea>
+            <br>
+            <!-- botones de formulario -->
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar"><br>
+            <input type="button" value="Boton 1"><br>
+            <br>
+        </section>
+        <h2>Ubicacion</h2>
+        <footer>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14376.989923195988!2d153.52973165956865!3d-28.15229105704633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b91003938b6ce97%3A0x151ce4d500e7e120!2sSnapper%20Rocks!5e0!3m2!1ses!2sau!4v1692268767263!5m2!1ses!2sau" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <hr>
+        <!-- Incluimos los climas de las diferentes ciudades, ejemplos, con mas concurriencia de surf -->
+            <marquee> <em>Weather Surf Points 🌊🌴</em>__________Gold Coast 27°C ☀️_____________            Rio de Janeiro 20°C 🌦️__________Puerto Escondido 30°C 🌙</marquee>
+        </footer>
+        
+    
+    
+        <!-- Bootstrap fin -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    
+</body>
+</html>

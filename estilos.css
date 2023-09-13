@@ -1,3 +1,66 @@
-.section{ 
+body{ 
+    background-color: rgb(30, 134, 231);
+}
 
+.navbar{
+    background-color: rgb(14, 14, 155);
+}
+
+.collapse{
+    justify-content: end;
+}
+
+.jumbotrom{
+    background-color: #333;
+    /* text-align: center;
+    height: 400px;
+    width: 100%; */
+    background-image: url(img/ola1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+h1{
+    color: rgb(17, 22, 92);
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+
+}
+
+.jumbotrom p{
+    color: #0c0a0a;
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+}
+
+.nav-link{
+    color: antiquewhite !important;
+}
+
+.nav-item:hover{
+    background-color: rgb(9, 9, 133);
+    border-radius: 7px;
+}
+
+.button1{
+    background-color: rgba(23, 79, 182, 0.897);
+    color: aliceblue;
+}
+
+.jumbotrom .btn:hover{
+    background-color: darkblue;
+}
+
+h2{
+    background-color: rgb(9, 9, 133);
+    text-align: center;
+    color: aliceblue;
+    padding: 15px;
+    margin: 0;
+}
+
+.nleft{
+    height: 450px;
+    background-image: url(img/ola4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
 }
